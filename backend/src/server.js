@@ -19,11 +19,9 @@ const app = express();
 
 // Middleware
 const allowedOrigins = [
-  process.env.CLIENT_URL || "http://localhost:5173",
+  process.env.CLIENT_URL || "https://getprospekt.co",
   "https://getprospekt.co",
-  "https://getprospekt.co/",
   "https://www.getprospekt.co",
-  "https://www.getprospekt.co/",
   "http://localhost:5173",
   "http://127.0.0.1:5173",
 ];
